@@ -1,4 +1,8 @@
 var LocalRulesService = function (){
+	    if (localStorage['rules'] == undefined){
+	    	localStorage['rules'] = JSON.stringify([]);
+	    }
+
 		this.get = function(){
 			if (typeof localStorage['rules'] === 'undefined' || localStorage['rules'] === 'undefined'){
 				localStorage['rules'] = JSON.stringify([]);
