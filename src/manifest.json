@@ -1,5 +1,5 @@
 {
-	"name": "Switcheroo Redirector",
+	"name": "Switcheroo Redirector (gitpod edition)",
 	"version": "1.33",
 	"manifest_version": 2,
 	"description": "Setup custom redirect rules for any http request i.e pages, scripts, images etc. Uses a simple string replace to do this.",
