@@ -57,7 +57,7 @@ chrome.webRequest.onCompleted.addListener(
         return;
     },
     {
-        urls : ["https://*.ws-us.gitpod.io/*"]
+        urls : ["https://*.gitpod.io/*"]
     },
     ["responseHeaders"]
 );
